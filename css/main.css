@@ -4,9 +4,11 @@
 }
 .barraMenu{
     display: flex;
+    justify-content: space-between;
     height: 100px;
     background-color: white;
 }
+
 body{
     background-color: #ECEADD!important;
 }
@@ -59,9 +61,11 @@ body{
 }
 .listaMenu{
     display: flex;
+    justify-content: center;
     list-style: none;
 }
 .listaMenu li{
+    padding: 29px 28px 29px 28px;
     margin: 20px;
 }
 .cuerpoIndex{
@@ -138,8 +142,8 @@ body{
     margin: 40px 100px 40px 100px;
     border-radius: 8px;
 }
-.barraMenu li{
-    font-style: none;
+.barraMenu a{
+    list-style: none;
     color: black;
 }
 footer{
@@ -411,6 +415,7 @@ z-index: 1;
         line-height: 22px !important;    
     }
     .nosotrosMobile{
+        margin-top: 8px;
         width: 328px;
     }
     .nosotrosMobile p{
