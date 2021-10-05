@@ -8,6 +8,9 @@
     height: 100px;
     background-color: white;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: #ECEADD!important;
@@ -331,6 +334,9 @@ z-index: 1;
        -webkit-filter: drop-shadow(2px 2px 2px #222 );
         filter: drop-shadow(2px 2px 2px #222);
     }
+    .carrusel{
+        margin: 40px 0px 40px 0px !important;
+    }
     .redes h3{
         margin-right: 0px;
         font-size: 15px;
@@ -407,7 +413,10 @@ z-index: 1;
     .subTitulos{
         font-size: 16px;
         font-weight: 300;
-        margin-bottom: 0px
+        margin-bottom: 0px;
+    }
+    .cuerpos{
+        margin-top: 40px;
     }
     .tituloMobile{
         font-weight: 600 !important;
