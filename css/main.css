@@ -94,11 +94,12 @@ body{
 }
 .contenido-quienesSomos-superior{
     display: flex;  
+    margin-bottom: 32px;
 }
 .contenido-quienesSomos-superior img{
     width: 505px;
     height: 533px;
-    margin-right: 40px;
+    margin-left: 24px;
     
     filter: drop-shadow(0px 4.01548px 4.01548px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4.01548px 4.01548px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4.01548px 4.01548px rgba(0, 0, 0, 0.25));
 }
