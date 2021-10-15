@@ -11,6 +11,21 @@
 html {
     scroll-behavior: smooth;
 }
+#botonContactanos{
+    background-color: #925F36;
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    
+}
+#botonContactanos a{
+    color: white !important;
+}
 
 body{
     background-color: #ECEADD!important;
@@ -32,8 +47,8 @@ body{
 }
 .cuerpoIndex img{
 
-    width: 1240px;
-    height: 346px;
+    width: 77.5rem;
+    height: 21.625rem;
     margin-top: 40px;
 }    
 .cuerpoIndex aside{
@@ -43,7 +58,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: 300;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 58px;
     width: 100% !important;
 }
@@ -96,7 +111,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 32px;
 }
 .contenido-quienesSomos-superior{
@@ -116,7 +131,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: 300;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 58px;
     font-feature-settings: 'salt' on;
     color: #000000;
@@ -129,7 +144,7 @@ body{
     box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.479);
 }
 .contenido-nuestrosServicios p{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 .contenido-nuestrosServicios{
@@ -202,7 +217,7 @@ footer{
     margin-bottom: 40px;
     color: #925F36;
     font-weight: bolder;
-    font-size: 18;
+    font-size: 1.125rem;
 }
 .listaDatos ul li ion-icon{
     width: 48px;
@@ -216,12 +231,12 @@ footer{
     margin-right: 5px;
 }
 .numero-frase{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
 }
 #infinito{
     width: 48px;
-    height: 4 0px;
+    height: 40px;
 }
 .logoInferior{
     display: flex;
@@ -271,10 +286,10 @@ z-index: 1;
         margin-top: 0px;
     }
     .numero-frase{
-        font-size: 12px;
+        font-size: 0.75rem;
     }
     .listaFooter-frases ul{
-        font-size: 8px;
+        font-size: 0.5rem;
         font-weight: bold;
         margin-left: 4px;
         color: #925F36;
@@ -297,7 +312,7 @@ z-index: 1;
         margin-bottom: 8px;
         color: white;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 0.938rem;
     }
     .listaDatos ul li ion-icon{
         width: 16px;
@@ -339,7 +354,7 @@ z-index: 1;
     }
     .redes h3{
         margin-right: 0px;
-        font-size: 15px;
+        font-size: 0.938rem;
 
     }
     .redes img{
@@ -370,7 +385,7 @@ z-index: 1;
         margin-top: 8px;
     }    
     .cuerpoIndex aside{
-        font-size: 18px;
+        font-size: 1.125rem;
         line-height: 22px;
         width: 100% !important;
     }
@@ -411,7 +426,7 @@ z-index: 1;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
     .subTitulos{
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 300;
         margin-bottom: 0px;
     }
@@ -420,7 +435,7 @@ z-index: 1;
     }
     .tituloMobile{
         font-weight: 600 !important;
-        font-size: 18px !important;
+        font-size: 1.125rem !important;
         line-height: 22px !important;    
     }
     .nosotrosMobile{
@@ -431,7 +446,7 @@ z-index: 1;
         font-family: Inter;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 24px;
         letter-spacing: 0.02em;
         font-feature-settings: 'salt' on;
