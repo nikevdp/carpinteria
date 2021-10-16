@@ -1,6 +1,5 @@
 *{
     font-family: 'Inter', sans-serif;
-
 }
 .barraMenu{
     display: flex;
@@ -46,16 +45,14 @@ body{
     align-items: center;
 }
 .cuerpoIndex img{
-
-    width: 77.5rem;
-    height: 21.625rem;
+    width: 100%;
+    height: auto;
     margin-top: 40px;
 }    
 .cuerpoIndex aside{
     color: white;
     display: flex;
     justify-content:space-between;
-    font-family: Inter;
     font-style: normal;
     font-weight: 300;
     font-size: 3rem;
@@ -75,7 +72,7 @@ body{
     width: 53px;
     height: 53px;
     margin: 0px 0px 0px 48px; 
-    filter: drop-shadow(0px 1px 1px #222);
+    filter: drop-shadow(0px 1px 1px white);
 }
 .listaMenu{
     display: flex;
@@ -107,8 +104,14 @@ body{
     flex-direction: column;
     margin: 50px
 }
+#quienesSomos{
+    margin-top: 40px;
+}
+.flecha-carrusel{
+    color: #925F36;
+    font-size: 85px;
+}
 .contenido-quienesSomos p{
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
@@ -128,13 +131,14 @@ body{
 .subTitulos{
     display: flex;
     justify-content: center;
-    font-family: Inter;
     font-style: normal;
     font-weight: 300;
     font-size: 3rem;
     line-height: 58px;
-    font-feature-settings: 'salt' on;
     color: #000000;
+}
+#nuestrosTrabajos{
+    margin-bottom: 20px;
 }
 
 .contenido-nuestrosServicios img{
@@ -237,6 +241,7 @@ footer{
 #infinito{
     width: 48px;
     height: 40px;
+    font-size: 80px;
 }
 .logoInferior{
     display: flex;
@@ -380,8 +385,8 @@ z-index: 1;
     }
     .cuerpoIndex img{
         filter:  drop-shadow(0px 1px 1px #222);
-        width: 328px !important;
-        height: 104px;
+        width: 100% !important;
+        height: auto;
         margin-top: 8px;
     }    
     .cuerpoIndex aside{
@@ -443,7 +448,6 @@ z-index: 1;
         width: 328px;
     }
     .nosotrosMobile p{
-        font-family: Inter;
         font-style: normal;
         font-weight: normal;
         font-size: 0.875rem;
