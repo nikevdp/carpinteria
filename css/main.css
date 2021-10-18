@@ -1,5 +1,5 @@
 *{
-    font-family: 'Inter', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 .barraMenu{
     display: flex;
@@ -125,7 +125,6 @@ body{
     width: 505px;
     height: 533px;
     margin-left: 24px;
-    
     filter: drop-shadow(0px 4.01548px 4.01548px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4.01548px 4.01548px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4.01548px 4.01548px rgba(0, 0, 0, 0.25));
 }
 .subTitulos{
@@ -188,7 +187,9 @@ footer{
 .listaFooter-frases ul{
     list-style: none;
     padding: 0px;
-    font-weight: bold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
     margin-left: 15px;
 }
 .redes{
@@ -223,10 +224,9 @@ footer{
     font-weight: bolder;
     font-size: 1.125rem;
 }
-.listaDatos ul li ion-icon{
-    width: 48px;
-    height: 48px;
+.listaDatos ion-icon{
     margin-right: 40px;
+    font-size: 48px;
 }
 .linea{
     width: 2px;
@@ -240,8 +240,10 @@ footer{
 }
 #infinito{
     width: 48px;
-    height: 40px;
-    font-size: 80px;
+    height: 40px; 
+}
+#infinito ion-icon{
+    font-size: 48px;
 }
 .logoInferior{
     display: flex;
