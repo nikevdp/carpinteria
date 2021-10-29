@@ -4,7 +4,7 @@
 .barraMenu{
     display: flex;
     justify-content: space-between;
-    height: 10.2880658436214vh;
+    height: 100px;
     background-color: white;
 }
 html {
@@ -58,8 +58,8 @@ body{
     justify-content:space-between;
     font-style: normal;
     font-weight: 300;
-    font-size: 5.068637803590285vh;
-    line-height: 6.124604012671594vh;
+    font-size: 3.125rem;
+    line-height: 3.75rem;
     width: 100% !important;
 }
 .cuerpoIndex aside #detalles{
@@ -89,7 +89,7 @@ body{
 .listaMenu li{
     padding: 2.9vh 2.8vh 2.8vh 2.8vh;
     margin: 2vh;
-    font-size: 1.9vh;
+    font-size: 1.188rem;
     font-weight: bold;
 }
 .cuerpoIndex{
@@ -117,7 +117,7 @@ body{
 }
 .flecha-carrusel{
     color: #925F36;
-    font-size: 8.74485596707819vh;
+    font-size: 5.313rem;
 }
 .contenido-quienesSomos p{
     font-style: normal;
@@ -141,7 +141,7 @@ body{
     font-style: normal;
     font-weight: 300;
     font-size: 3rem;
-    line-height: 5.967078189300412vh;
+    line-height: 3.625rem;
     color: #000000;
 }
 #nuestrosTrabajos{
