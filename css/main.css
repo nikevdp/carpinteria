@@ -58,8 +58,8 @@ body{
     justify-content:space-between;
     font-style: normal;
     font-weight: 300;
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 5.068637803590285vh;
+    line-height: 6.124604012671594vh;
     width: 100% !important;
 }
 .cuerpoIndex aside #detalles{
@@ -123,7 +123,7 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
-    line-height: 3.292181069958848vh;
+    line-height: 2rem;
 }
 .contenido-quienesSomos-superior{
     display: flex;  
@@ -155,7 +155,8 @@ body{
     box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.479);
 }
 .contenido-nuestrosServicios p{
-    font-size: 2.4691358024691357vh !important;
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-weight: 400;
 }
 .contenido-nuestrosServicios{
@@ -197,8 +198,8 @@ footer{
     padding: 0px;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    margin-left: 15px;
+    font-size: 1rem;
+    margin-left: 0.938rem;
 }
 .redes{
     display: flex;
@@ -422,8 +423,8 @@ z-index: 1;
        height: 64px;
     }
     .redesIndex ion-icon{
-        width: 13px;
-        height: 13px;
+        width: 3rem;
+        height: 3rem;
         margin: 0px 0px 0px 9px;
         filter: drop-shadow(0rem 0.063rem 0.063rem white);
         color: #925F36;  
