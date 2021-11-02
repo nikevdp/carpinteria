@@ -272,6 +272,9 @@ z-index: 1;
     height: 1px;
     background-color: #ffffff48;
 }
+.wpp{
+    position: sticky;
+}
 @media only screen and (max-width: 480px){
     footer{
         background-image: url("../imagenes/fotoFooterMobile.jpeg");
@@ -383,8 +386,8 @@ z-index: 1;
 
     }
     .redes ion-icon{
-        width: 14px;
-        height: 14px;
+        width: 3rem;
+        height: 3rem;
         margin: 0px 0px 0px 11px; 
     }
     .bodyDesktop{
@@ -484,7 +487,7 @@ z-index: 1;
         display: flex;
         width: 100%;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         border-bottom: 2px solid #C7C19D;
     }
     nav img{
