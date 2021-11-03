@@ -225,6 +225,9 @@ footer{
 .listaDatos ul{
     list-style: none;
 }
+.listaDatos a{
+    color: #925F36;
+}
 .listaDatos ul li{
     display: flex;
     align-items: center;
@@ -484,6 +487,7 @@ z-index: 1;
         color: #925F36;
     }
     nav{
+        padding: 0px 8px 0px 5px;
         display: flex;
         width: 100%;
         align-items: center;
